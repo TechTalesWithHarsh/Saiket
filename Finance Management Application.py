@@ -4,7 +4,7 @@ import mysql.connector
 conn_init = mysql.connector.connect(
     host="localhost",
     user="TechTalesWithHarsh",
-    password="@DPMA_gamc_128"
+    password="*****************"
 )
 cursor_init = conn_init.cursor()
 cursor_init.execute("CREATE DATABASE IF NOT EXISTS finance_db;")
